@@ -2,7 +2,7 @@
 
 **Repository for Chapter 4 of the paper**  
 
-![image])(.Scan-BIM-measurement/asset/scan-bim.png)
+![image])(./Scan-BIM-measurement/asset/scan-bim.png)
 
 ## 简介
 
