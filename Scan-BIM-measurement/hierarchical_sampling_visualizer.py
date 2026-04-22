@@ -173,9 +173,7 @@ def visualize_hierarchical_sampling(pcd, sampled_points, point_types, save_path=
 def main():
     # 解析命令行参数
     parser = argparse.ArgumentParser(description="基于几何分层的点云采样可视化工具")
-    # parser.add_argument("--point_cloud_path", type=str, default=r'D:\Application\PycharmProfessional\pycharm\PointCloud_registration\GeoTransformer-main\data\custom\RawData_world\test\merged_points.txt',
-    # help="点云文件路径 (支持PLY、PCD等格式)")
-    parser.add_argument("--point_cloud_path", type=str, default=r"D:\Application\PycharmProfessional\pycharm\PointCloud_registration\PCR_test\data\MiC-9_uniform_50000.ply",
+    parser.add_argument("--point_cloud_path", type=str, default=r'point_cloud_path',
     help="点云文件路径 (支持PLY、PCD等格式)")
     parser.add_argument("--target_points", type=int, default=30000, help="目标采样点数")
     parser.add_argument("--corner_ratio", type=float, default=0.30, help="角点比例")
